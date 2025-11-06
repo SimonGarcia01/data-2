@@ -1,0 +1,37 @@
+En cuanto al balanceo de carga entre nodos, 
+la elección de claves favorece este aspecto porque en la tabla principal (posts) 
+se utilizan claves particionadas por el par (title, author_name), 
+lo que distribuye los datos de forma natural entre los nodos del clúster. Cada combinación 
+única produce un token distinto y, por lo tanto, los posts se reparten uniformemente, evitando que un 
+solo nodo reciba toda la carga.
+
+Por otro lado, en la tabla all_posts se emplea un group_id fijo acompañado del publicationDate como clstering key. 
+Aunque todas las entradas quedan en la misma partición, esta decisión 
+es deliberada para satisfacer el requerimiento de obtener los últimos 10 posts de forma eficiente. 
+Al mantenerlos agrupados en un único partición, 
+Cassandra puede devolver los registros más recientes en orden descendente de manera inmediata 
+sin escaneos globales ni lecturas costosas.
+
+CREATE TABLE author_posts (
+    title text,
+    author_name text,
+    publicationDate timestamp,
+    body text,
+    author_description text,
+    author_reputation text,
+    tags list<text>,
+    comments map<timestamp, text>,
+    PRIMARY KEY ((title, author_name))
+);
+
+CREATE TABLE all_posts (
+    group_id text,
+    title text,
+    author_name text,
+    publicationDate timestamp,
+    body text,
+    author_description text,
+    author_reputation text,
+    tags list<text>,
+    PRIMARY KEY (group_id, publicationDate)
+) WITH CLUSTERING ORDER BY (publicationDate DESC);

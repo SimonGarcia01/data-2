@@ -1,0 +1,13 @@
+This returns 1 post
+
+SELECT *
+FROM author_posts
+WHERE title = 'Kubernetes Fundamentals' AND author_name = 'Alice';
+
+
+This returns 10 posts
+
+SELECT title, body, author_name, tags
+FROM all_posts
+WHERE group_id = 'all'
+LIMIT 10;

@@ -1,0 +1,346 @@
+===============================================
+INSERTIONS FOR AUTHOR_POSTS
+===============================================
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Understanding Cassandra Partitions',
+  'Alice',
+  '2025-05-01 08:00:00',
+  'A deep dive into how partitions work in Cassandra.',
+  'Distributed systems engineer and Cassandra specialist.',
+  'expert',
+  ['cassandra', 'nosql', 'database'],
+  {'2025-05-01 08:30:00': 'Great explanation!', '2025-05-01 08:31:00': 'Very helpful.'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Building a REST API in Java',
+  'Bob',
+  '2025-05-01 08:01:00',
+  'Step-by-step guide to creating a REST API using Spring Boot.',
+  'Backend developer who loves Spring Boot and microservices.',
+  'intermediate',
+  ['java', 'spring', 'api'],
+  {'2025-05-01 08:40:00': 'Nice tutorial!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Machine Learning Basics',
+  'Carla',
+  '2025-05-01 08:02:00',
+  'An introduction to key ML concepts.',
+  'Data scientist with 8 years of experience in applied ML.',
+  'expert',
+  ['machine-learning', 'ai'],
+  {'2025-05-01 08:50:00': 'Clear and concise.'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Docker for Beginners',
+  'Diego',
+  '2025-05-01 08:03:00',
+  'Learn how to containerize your first application.',
+  'Junior dev exploring DevOps tools and automation.',
+  'beginner',
+  ['docker', 'containers'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Kubernetes Fundamentals',
+  'Alice',
+  '2025-05-01 08:04:00',
+  'What you need to know to start with Kubernetes.',
+  'Distributed systems engineer and Cassandra specialist.',
+  'expert',
+  ['kubernetes', 'devops'],
+  {'2025-05-01 08:45:00': 'Awesome content!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Python Tips and Tricks',
+  'Erick',
+  '2025-05-01 08:05:00',
+  'Useful Python tips for everyday coding.',
+  'Software engineer passionate about writing clean Python code.',
+  'intermediate',
+  ['python', 'tips'],
+  {'2025-05-01 09:00:00': 'Loved the examples.'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'React State Management',
+  'Fiona',
+  '2025-05-01 08:06:00',
+  'Understanding state and props in React.',
+  'Frontend engineer focused on modern JavaScript frameworks.',
+  'expert',
+  ['react', 'javascript', 'frontend'],
+  {'2025-05-01 09:05:00': 'This clarified a lot!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Working with Git',
+  'George',
+  '2025-05-01 08:07:00',
+  'Essential Git commands every developer should know.',
+  'Developer advocate teaching teams effective version control.',
+  'intermediate',
+  ['git', 'version-control'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'NoSQL vs SQL Databases',
+  'Hector',
+  '2025-05-01 08:08:00',
+  'Comparison between relational and non-relational databases.',
+  'Database architect with experience in both SQL and NoSQL systems.',
+  'expert',
+  ['database', 'sql', 'nosql'],
+  {'2025-05-01 09:20:00': 'Good overview.'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Introduction to Cybersecurity',
+  'Isabella',
+  '2025-05-01 08:09:00',
+  'Basic concepts to protect your systems and applications.',
+  'Cybersecurity enthusiast learning defensive techniques.',
+  'beginner',
+  ['cybersecurity', 'security'],
+  {'2025-05-01 09:25:00': 'Very informative!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Introduction to GraphQL',
+  'Julia',
+  '2025-05-01 08:10:00',
+  'A beginner-friendly guide to understanding GraphQL and how it differs from REST.',
+  'Full-stack developer specializing in modern API technologies.',
+  'intermediate',
+  ['graphql', 'api', 'webdev'],
+  {'2025-05-01 08:55:00': 'Very easy to follow!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Advanced CSS Layout Techniques',
+  'Karen',
+  '2025-05-01 08:11:00',
+  'Exploring CSS Grid, Flexbox, and responsive design strategies.',
+  'UI/UX designer passionate about accessible interfaces.',
+  'expert',
+  ['css', 'frontend', 'design'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Understanding WebSockets',
+  'Leo',
+  '2025-05-01 08:12:00',
+  'How WebSockets enable real-time communication in modern applications.',
+  'Backend engineer working with real-time systems.',
+  'intermediate',
+  ['websockets', 'networking', 'realtime'],
+  {'2025-05-01 08:59:00': 'Love the real-world examples!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Intro to Functional Programming',
+  'Maria',
+  '2025-05-01 08:13:00',
+  'The core ideas behind functional programming and why they matter.',
+  'Software engineer who teaches FP concepts online.',
+  'expert',
+  ['functional', 'programming', 'theory'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Deploying Apps with CI/CD',
+  'Nicolas',
+  '2025-05-01 08:14:00',
+  'A hands-on guide to setting up continuous integration and delivery pipelines.',
+  'DevOps specialist focused on automation and cloud-native tools.',
+  'expert',
+  ['cicd', 'devops', 'automation'],
+  {'2025-05-01 08:56:00': 'This is gold!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Building REST APIs with Flask',
+  'Olivia',
+  '2025-05-01 08:15:00',
+  'Learn how to create a simple but scalable REST API using Python and Flask.',
+  'Python developer with experience in backend and API design.',
+  'intermediate',
+  ['python', 'flask', 'api'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Getting Started with Redis',
+  'Pablo',
+  '2025-05-01 08:16:00',
+  'What Redis is, how it works, and when to use it in your projects.',
+  'Backend engineer specializing in high-performance caching systems.',
+  'intermediate',
+  ['redis', 'database', 'cache'],
+  {'2025-05-01 09:10:00': 'Very informative article.'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Intro to Microservices',
+  'Quinn',
+  '2025-05-01 08:17:00',
+  'Key principles of microservice architecture and common challenges.',
+  'Architect specializing in distributed system design.',
+  'expert',
+  ['microservices', 'architecture'],
+  {}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Async Programming in JavaScript',
+  'Rita',
+  '2025-05-01 08:18:00',
+  'Understanding callbacks, promises, and async/await with examples.',
+  'Frontend developer who writes about JS concepts.',
+  'intermediate',
+  ['javascript', 'async', 'promises'],
+  {'2025-05-01 09:15:00': 'Way clearer now, thanks!'}
+);
+
+
+INSERT INTO author_posts (title, author_name, publicationDate, body, author_description, author_reputation, tags, comments)
+VALUES (
+  'Understanding OAuth2',
+  'Samuel',
+  '2025-05-01 08:19:00',
+  'An explanation of OAuth2 authorization flows and how they are used.',
+  'Security engineer focused on authentication and authorization protocols.',
+  'expert',
+  ['oauth2', 'security', 'auth'],
+  {'2025-05-01 09:30:00': 'Great explanations!'}
+);
+
+===============================================
+INSERTIONS FOR ALL_POSTS
+===============================================
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Understanding Cassandra Partitions', 'Alice', '2025-05-01 08:00:00',
+'A deep dive into how partitions work in Cassandra.', 'Distributed systems engineer and Cassandra specialist.', 'expert', ['cassandra','nosql','database']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Building a REST API in Java', 'Bob', '2025-05-01 08:30:00',
+'Step-by-step guide to creating a REST API using Spring Boot.', 'Backend developer who loves Spring Boot and microservices.', 'intermediate', ['java','spring','api']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Machine Learning Basics', 'Carla', '2025-05-01 09:00:00',
+'An introduction to key ML concepts.', 'Data scientist with 8 years of experience in applied ML.', 'expert', ['machine-learning','ai']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Docker for Beginners', 'Diego', '2025-05-01 09:30:00',
+'Learn how to containerize your first application.', 'Junior dev exploring DevOps tools and automation.', 'beginner', ['docker','containers']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Kubernetes Fundamentals', 'Alice', '2025-05-01 10:00:00',
+'What you need to know to start with Kubernetes.', 'Distributed systems engineer and Cassandra specialist.', 'expert', ['kubernetes','devops']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Python Tips and Tricks', 'Erick', '2025-05-01 10:30:00',
+'Useful Python tips for everyday coding.', 'Software engineer passionate about writing clean Python code.', 'intermediate', ['python','tips']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'React State Management', 'Fiona', '2025-05-01 11:00:00',
+'Understanding state and props in React.', 'Frontend engineer focused on modern JavaScript frameworks.', 'expert', ['react','javascript','frontend']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Working with Git', 'George', '2025-05-01 11:30:00',
+'Essential Git commands every developer should know.', 'Developer advocate teaching teams effective version control.', 'intermediate', ['git','version-control']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'NoSQL vs SQL Databases', 'Hector', '2025-05-01 12:00:00',
+'Comparison between relational and non-relational databases.', 'Database architect with experience in both SQL and NoSQL systems.', 'expert', ['database','sql','nosql']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Introduction to Cybersecurity', 'Isabella', '2025-05-01 12:30:00',
+'Basic concepts to protect your systems and applications.', 'Cybersecurity enthusiast learning defensive techniques.', 'beginner', ['cybersecurity','security']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Cloud Computing Overview', 'Jack', '2025-05-01 13:00:00',
+'Understanding the basics of cloud computing models.', 'Cloud architect helping businesses migrate to the cloud.', 'expert', ['cloud','infrastructure']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Agile Methodologies Explained', 'Karen', '2025-05-01 13:30:00',
+'A guide to Agile principles and Scrum framework.', 'Project manager promoting adaptive software development.', 'intermediate', ['agile','scrum','project-management']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Intro to Data Structures', 'Luis', '2025-05-01 14:00:00',
+'Fundamentals of arrays, lists, and trees in programming.', 'Computer science professor teaching algorithms and data structures.', 'expert', ['data-structures','algorithms']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Web Accessibility Basics', 'Maria', '2025-05-01 14:30:00',
+'How to make your website more accessible for everyone.', 'Frontend developer advocating for inclusive web design.', 'intermediate', ['web','accessibility']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Introduction to Blockchain', 'Nicolas', '2025-05-01 15:00:00',
+'How blockchain works and its real-world use cases.', 'Blockchain researcher and crypto enthusiast.', 'expert', ['blockchain','crypto']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'C++ Performance Optimization', 'Olivia', '2025-05-01 15:30:00',
+'Best practices for improving performance in C++ applications.', 'Systems programmer focusing on high-performance computing.', 'expert', ['c++','performance']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Testing with JUnit', 'Peter', '2025-05-01 16:00:00',
+'How to write unit tests effectively using JUnit.', 'Backend developer improving code reliability through testing.', 'intermediate', ['java','testing','junit']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Getting Started with TensorFlow', 'Quinn', '2025-05-01 16:30:00',
+'Introductory guide to TensorFlow for deep learning.', 'AI engineer experimenting with neural networks.', 'intermediate', ['tensorflow','ai','deep-learning']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'REST vs GraphQL APIs', 'Rosa', '2025-05-01 17:00:00',
+'Comparison between REST and GraphQL architectures.', 'Full-stack developer specializing in API design.', 'intermediate', ['graphql','rest','api']);
+
+INSERT INTO all_posts (group_id, title, author_name, publicationDate, body, author_description, author_reputation, tags)
+VALUES ('all', 'Introduction to DevOps Culture', 'Samuel', '2025-05-01 17:30:00',
+'The mindset and practices behind modern DevOps culture.', 'Engineer focused on automation and CI/CD pipelines.', 'expert', ['devops','automation']);
